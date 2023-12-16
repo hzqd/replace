@@ -4,7 +4,7 @@ use clap::Parser;
 /// A CLI tool for replace *.txt string
 
 #[derive(Parser)]
-#[clap(version = "0.0.0", author = "hzqd <hzqelf@yeah.net>")]
+#[clap(version = "0.0.2", author = "hzqd <hzqelf@yeah.net>")]
 pub struct Args {
     /// Specify the input file name
     #[clap()]
@@ -23,7 +23,7 @@ pub struct Args {
     pub to: String,
 
     /// Specify the time unit, support nanos, micros, millis, secs
-    #[clap(short, long, default_value = "millis")]
+    #[clap(short, long, default_value = "micros")]
     pub time: TimeUnit,
 }
 

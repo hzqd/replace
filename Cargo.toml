@@ -1,6 +1,6 @@
 [package]
 name = "replaces"
-version = "0.0.0"
+version = "0.0.2"
 edition = "2021"
 description = "A CLI tool for replace *.txt string"
 authors = ["hzqd <hzqelf@yeah.net>"]
